@@ -10,7 +10,7 @@ nav{
 	border-style: solid;
 	border-color: #794D4D;
 	border-width: medium;
-
+  margin-bottom: 30px;
 }
 nav li:hover{
 	background-color: #1DD9D2;
@@ -21,7 +21,10 @@ a:hover{
 	color: #21F753;
 }
 
-footer{
+#pie{
+  display: inline-block;
+  float: button;
+  margin-top: 30px;
 	border-style: solid;
 	border-color: #794D4D;
 	border-width: medium;	
@@ -38,14 +41,15 @@ footer figure{
 }
 
 aside{
+  float: left;
 	border-width: medium;
 	text-align: justify;
 	border-style: solid;
-	width: 25%;
+	width: 20%;
+
 	display: inline-block;
-	margin-top: auto;
-	margin: auto;
-	height: 100%;
+	/*margin: auto;*/
+  text-align: justify;
 
 }
 aside img,iframe{
@@ -58,16 +62,13 @@ aside img{
 }
 
 section{
-	width: 60%;
-	height: 100%;
+  float: right;
+	width: 75%;
 	border-width: medium;
 	text-align: justify;
 	border-style: solid;
 	display: inline-block;
-	margin-top: auto;
-	margin-left: auto;
-	margin: auto;
-
+  
 }
 img{
 	border-radius: 100px;
