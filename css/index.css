@@ -1,0 +1,415 @@
+h1{
+	text-align: center;
+	background-image: url(data:image/jpeg;base64,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);
+	font-weight: bold;
+	color: blue;
+}
+
+nav{
+	background-color: red;
+	border-style: solid;
+	border-color: #794D4D;
+	border-width: medium;
+
+}
+nav li:hover{
+	background-color: #1DD9D2;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #21F753;
+}
+
+footer{
+	border-style: solid;
+	border-color: #794D4D;
+	border-width: medium;	
+	text-align: left;
+	text-align: justify;
+}
+footer p{
+	width:80%;
+	display: inline-block;
+}
+footer figure{
+	width: 10%;
+	display: inline-block;
+}
+
+aside{
+	border-width: medium;
+	text-align: justify;
+	border-style: solid;
+	width: 20%;
+	display: inline-block;
+	margin-top: auto;
+	margin: auto;
+	height: 100%;
+
+}
+aside img,iframe{
+	width: 70%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+aside img{
+	height: 100%;
+}
+
+section{
+	width: 60%;
+	height: 100%;
+	border-width: medium;
+	text-align: justify;
+	border-style: solid;
+	display: inline-block;
+	margin-top: auto;
+	margin-left: auto;
+	margin: auto;
+
+}
+img{
+	border-radius: 100px;
+	border: dotted;
+	border-color: black;
+	box-shadow: 2px 2px 5px #999;
+}
+
+img:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+table.blueTable {
+  border: 1px solid #0A0400;
+  background-color: #FFFFFF;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #30AAA0;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+  color: #000000;
+}
+table.blueTable tr:nth-child(even) {
+  background: #4D77FF;
+}
+table.blueTable thead {
+  background: #2B45A4;
+  background: -moz-linear-gradient(top, #6073bb 0%, #4057ad 66%, #2B45A4 100%);
+  background: -webkit-linear-gradient(top, #6073bb 0%, #4057ad 66%, #2B45A4 100%);
+  background: linear-gradient(to bottom, #6073bb 0%, #4057ad 66%, #2B45A4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #5A14F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #F3F5F3;
+  background: -moz-linear-gradient(top, #f6f7f6 0%, #f4f6f4 66%, #F3F5F3 100%);
+  background: -webkit-linear-gradient(top, #f6f7f6 0%, #f4f6f4 66%, #F3F5F3 100%);
+  background: linear-gradient(to bottom, #f6f7f6 0%, #f4f6f4 66%, #F3F5F3 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #425BA4;
+  color: #FAFFFA;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+
+@calendar-border:rgb(220,220,255);
+@calendar-bg:#fff;
+@calendar-standout:rgb(40,40,59);
+@calendar-color:#444;
+@calendar-fade-color:#c0c0c0;
+@body-color:#444;
+
+
+.group {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
+.max(@maxWidth;
+  @rules) {
+    @media only screen and (max-width: @maxWidth) {
+      @rules();
+    }
+  }
+
+.min(@minWidth;
+  @rules) {
+    @media only screen and (min-width: @minWidth) {
+      @rules();
+    }
+  }
+
+
+.calendar-wrapper {
+  width:360px;
+  margin:3em auto;
+  padding:2em;
+  border:1px solid @calendar-border;
+  border-radius:5px;
+  background:@calendar-bg;
+  
+}
+table {
+  clear:both;
+  width:100%;
+  border:1px solid @calendar-border;
+  border-radius:3px;
+  border-collapse:collapse;
+  color:@calendar-color;
+}
+td {
+  height:48px;
+  text-align:center;
+  vertical-align:middle;
+  border-right:1px solid @calendar-border;
+  border-top:1px solid @calendar-border;
+  width:100% / 7;
+}
+td.not-current {
+  color:@calendar-fade-color;;
+}
+td.normal {}
+td.today {
+  font-weight:700;
+  color:@calendar-standout;
+  font-size:1.5em;
+}
+thead td {
+  border:none;
+  color:@calendar-standout;
+  text-transform:uppercase;
+  font-size:1.5em;
+}
+#btnPrev {
+  float:left;
+  margin-bottom:20px;
+  &:before {
+    content:'\f104';
+    font-family:FontAwesome;
+    padding-right:4px;
+  }
+}
+#btnNext {
+  float:right;
+  margin-bottom:20px;
+  &:after {
+    content:'\f105';
+    font-family:FontAwesome;
+    padding-left:4px;
+  }
+}
+#btnPrev, #btnNext {
+  background:transparent;
+  border:none;
+  outline:none;
+  font-size:1em;
+  color:@calendar-fade-color;
+  cursor:pointer;
+  font-family:"Roboto Condensed", sans-serif;
+  text-transform:uppercase;
+  transition:all 0.3s ease;
+  &:hover {
+    color:@calendar-standout;
+    font-weight:bold;
+  }
+}
+
+#some-element1 {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+#some-div1:hover #some-element1 {
+  display: block;
+}
+
+#some-element2 {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+#some-div2:hover #some-element2 {
+  display: block;
+}	
+
+#some-element3 {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+#some-div3:hover #some-element3 {
+  display: block;
+}	
+
+#some-element4 {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+#some-div4:hover #some-element4 {
+  display: block;
+}	
+
+#some-element5 {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+#some-div5:hover #some-element5 {
+  display: block;
+}	
+
+
+form{
+	background: #CAC2C2;
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+
+.tweet .copy:before {
+  white-space: pre-wrap;
+}
+
+
+  
+  #tweet-1 .avatar {
+    background: url("http://pbs.twimg.com/profile_images/426574576160485376/RzSZCd1p_normal.jpeg");
+  }
+
+  #tweet-1 .name::before {
+    content: "Dayna Lessig";
+  }
+
+  #tweet-1 .handle::after {
+    content: "@DaytimeSweet";
+  }
+
+  #tweet-1 .copy::before {
+    content: "@litmusapp I'm hoping to make it to Boston again. Last year was amazing! Looking forward to #TEDC16";
+  }
+
+  #tweet-1 .timestamp::after {
+    content: "Mar 23, 2016";
+  }
+
+  
+  #tweet-2 .avatar {
+    background: url("http://pbs.twimg.com/profile_images/813838616468291585/T8LcUcaJ_normal.jpg");
+  }
+
+  #tweet-2 .name::before {
+    content: "Kevin Mandeville";
+  }
+
+  #tweet-2 .handle::after {
+    content: "@KevinMandeville";
+  }
+
+  #tweet-2 .copy::before {
+    content: "If you missed the #TEDC16 Save the Date email, you can catch it here https://t.co/9AHwv7qqXg https://t.co/tCwdg553RJ #emailgeeks";
+  }
+
+  #tweet-2 .timestamp::after {
+    content: "Mar 23, 2016";
+  }
+
+  
+  #tweet-3 .avatar {
+    background: url("http://pbs.twimg.com/profile_images/861946538431565824/UL8PFJqX_normal.jpg");
+  }
+
+  #tweet-3 .name::before {
+    content: "Thomas Deneuville";
+  }
+
+  #tweet-3 .handle::after {
+    content: "@tdnvl";
+  }
+
+  #tweet-3 .copy::before {
+    content: ".@KevinMandeville et, al. did it again! \"The Email Design Conference 2016\" https://t.co/1oLZmUXRTP #emailMagic #dynamicCSS #TEDC16";
+  }
+
+  #tweet-3 .timestamp::after {
+    content: "Mar 23, 2016";
+  }
+
+  
+  #tweet-4 .avatar {
+    background: url("http://pbs.twimg.com/profile_images/861946538431565824/UL8PFJqX_normal.jpg");
+  }
+
+  #tweet-4 .name::before {
+    content: "Thomas Deneuville";
+  }
+
+  #tweet-4 .handle::after {
+    content: "@tdnvl";
+  }
+
+  #tweet-4 .copy::before {
+    content: "San Francisco in September or Boston in August? Mmm... #TEDC16 https://t.co/MiuKjsmeEj";
+  }
+
+  #tweet-4 .timestamp::after {
+    content: "Mar 23, 2016";
+  }
+
+
+
+}
+
