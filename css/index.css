@@ -41,7 +41,7 @@ aside{
 	border-width: medium;
 	text-align: justify;
 	border-style: solid;
-	width: 20%;
+	width: 25%;
 	display: inline-block;
 	margin-top: auto;
 	margin: auto;
@@ -317,37 +317,41 @@ form{
 	background: #CAC2C2;
 }
 
+.tweet{
+  border-style: solid;
+  border-color: black;
+  border-width: medium;
+}
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
 
-.tweet .copy:before {
-  white-space: pre-wrap;
-}
-
-
-  
-  #tweet-1 .avatar {
-    background: url("http://pbs.twimg.com/profile_images/426574576160485376/RzSZCd1p_normal.jpeg");
+  .tweet .copy:before {
+    white-space: pre-wrap;
   }
 
-  #tweet-1 .name::before {
-    content: "Dayna Lessig";
-  }
 
-  #tweet-1 .handle::after {
-    content: "@DaytimeSweet";
-  }
+    
+    #tweet-1 .avatar {
+      background: url("http://pbs.twimg.com/profile_images/426574576160485376/RzSZCd1p_normal.jpeg");
+    }
 
-  #tweet-1 .copy::before {
-    content: "@litmusapp I'm hoping to make it to Boston again. Last year was amazing! Looking forward to #TEDC16";
-  }
+    #tweet-1 .name::before {
+      content: "Dayna Lessig";
+    }
 
-  #tweet-1 .timestamp::after {
-    content: "Mar 23, 2016";
-  }
+    #tweet-1 .handle::after {
+      content: "@DaytimeSweet";
+    }
 
-  
-  #tweet-2 .avatar {
+    #tweet-1 .copy::before {
+      content: "@litmusapp I'm hoping to make it to Boston again. Last year was amazing! Looking forward to #TEDC16";
+    }
+
+    #tweet-1 .timestamp::after {
+      content: "Mar 23, 2016";
+    }
+    
+    #tweet-2 .avatar {
     background: url("http://pbs.twimg.com/profile_images/813838616468291585/T8LcUcaJ_normal.jpg");
   }
 
@@ -408,8 +412,6 @@ form{
   #tweet-4 .timestamp::after {
     content: "Mar 23, 2016";
   }
-
-
 
 }
 
