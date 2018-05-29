@@ -9,10 +9,6 @@ h2{
   padding: 20px;
 }
 
-.datos{
-  text-decoration: underline;
-}
-
 nav{
   margin-bottom: 20px;
 }
@@ -42,7 +38,7 @@ nav li a {
     text-decoration: none;
 }
 
-nav li a:hover:not(.active) {
+nav li a:hover{
     background-color: #111;
 }
 
@@ -63,11 +59,39 @@ nav li a:hover:not(.active) {
 footer p{
 	width:80%;
 	display: inline-block;
-  padding: 15px;
+  height: 50px;
+}
+
+footer figure{
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+}
+
+#txt_indice{
+  margin-top: 30px;
+  margin-left: 30px;
+  display: inline-block;
+  height: 200px;
+  width: 600px;
+  
+}
+
+section img{
+  margin-top: 30px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  
+}
+
+
+#title_vision{
+  text-decoration: underline;
 }
 
 .vision{
-  width:80%;
+  width:700px;
   display: inline-block;
   padding: 15px;
   text-align: left;
@@ -78,11 +102,11 @@ footer p{
   padding-bottom: 5px;
   margin: 10px 0;
   height: auto;
-  float: left;
+  float: right;
 }
 
 .mision{
-  width:80%;
+  width:700px;
   display: inline-block;
   padding: 15px;
   text-align: right;
@@ -93,10 +117,10 @@ footer p{
   padding-bottom: 5px;
   margin: 10px 0;
   height: auto;
-  float: right;
+  float: left;
 }
 
-.figvision{
+section div img{
   width: 10%;
   margin-top: 5%;
   padding-left: 15px;
@@ -104,7 +128,11 @@ footer p{
   float: left;
 }
 
-.figmision{
+#servicios_reg{
+  margin-top: 400px;
+}
+
+section p img{
   width: 10%;
   margin-top: 5%;
   padding-left: 15px;
@@ -136,12 +164,7 @@ footer p{
   border-color: #2EFA6C;
 }
 
-footer figure{
-	width: 10%;
-	display: inline-block;
-  padding-left: 15px;
-  padding-right: 0px;
-}
+
 
 aside{
   float: left;
@@ -149,7 +172,6 @@ aside{
 	text-align: justify;
 	border-style: solid;
 	width: 20%;
-
 	display: inline-block;
 	/*margin: auto;*/
   text-align: justify;
@@ -169,18 +191,21 @@ section{
 	width: 75%;
 	border-width: medium;
 	text-align: justify;
-	border-style: solid;
+	/*border-style: solid;*/
 	display: inline-block;
   
 }
-img{
+.imagen{
 	border-radius: 100px;
 	border: dotted;
 	border-color: black;
 	box-shadow: 2px 2px 5px #999;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
 }
 
-img:hover{
+section#somos img:hover{
 	opacity: 0.5;
 	cursor: pointer;
 }
@@ -188,7 +213,7 @@ img:hover{
 table.blueTable {
   display: inline-block;
   padding-right: 20px;
-  border: 1px solid #0A0400;
+  /*border: 1px solid #0A0400;*/
   background-color: #FFFFFF;
   width: 40%;
   border-collapse: collapse;
@@ -425,11 +450,7 @@ form{
 	background: #CAC2C2;
 }
 
-.tweet{
-  border-style: solid;
-  border-color: black;
-  border-width: medium;
-}
+
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
 
