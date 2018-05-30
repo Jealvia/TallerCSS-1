@@ -98,13 +98,13 @@ nav li a:hover{
 
 #pie{
   display: inline-block;
-  float: button;
   margin-top: 30px;
 	border-style: solid;
 	border-color: #794D4D;
 	border-width: medium;	
 	text-align: left;
-	text-align: justify;
+  text-align: justify;
+  padding-left: 15px;
 }
 footer p{
 	width:80%;
