@@ -6,9 +6,59 @@ h1{
 }
 
 h2{
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
+.datos{
+  text-decoration: underline;
+}
+
+.encuentranos{
+  text-align: center;
+}
+.form-group{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.entrada{
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 30%;
+}
+
+.edad{
+  width: 5%;
+}
+
+.textos{
+  text-decoration: underline;
+  text-align: center;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px; 
+}
+
+.checkbox-inline{
+  text-align: center;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px; 
+}
+
+.comment{
+  margin-top: 10px;
+  margin-right: 20%;
+  margin-left: 2%;
+  padding-left: 20px;
+  width: 80%;
+  height: 30%;
+}
 nav{
   margin-bottom: 20px;
 }
@@ -85,14 +135,8 @@ section img{
   
 }
 
-
-#title_vision{
-  text-decoration: underline;
-}
-
 .vision{
   width:700px;
-  display: inline-block;
   padding: 15px;
   text-align: left;
   text-align: justify;
@@ -107,7 +151,6 @@ section img{
 
 .mision{
   width:700px;
-  display: inline-block;
   padding: 15px;
   text-align: right;
   text-align: justify;
@@ -151,9 +194,13 @@ section p img{
 
 .btn-submit{
   background: #23C74D;
-  margin: 30px;
+  width: 10%;
+  margin-top: 30px;
+  font-size: 1em;
+  margin-bottom: 30px;
+  margin-left: 45%;
   color:#150808;
-  border-radius: 15px;
+  border-radius: 7px;
   border-color: #30E22C;
 }
 
@@ -172,7 +219,6 @@ aside{
 	text-align: justify;
 	border-style: solid;
 	width: 20%;
-	display: inline-block;
 	/*margin: auto;*/
   text-align: justify;
 
@@ -192,8 +238,6 @@ section{
 	border-width: medium;
 	text-align: justify;
 	/*border-style: solid;*/
-	display: inline-block;
-  
 }
 .imagen{
 	border-radius: 100px;
@@ -212,12 +256,15 @@ section#somos img:hover{
 
 table.blueTable {
   display: inline-block;
-  padding-right: 20px;
-  /*border: 1px solid #0A0400;*/
+  margin-left:20%;
   background-color: #FFFFFF;
   width: 40%;
   border-collapse: collapse;
 }
+table.blueTable:hover{
+  background-color: #FFFFFF;
+}
+
 table.blueTable td, table.blueTable th {
   border: 1px solid #30AAA0;
   padding: 3px 2px;
@@ -305,12 +352,10 @@ table.blueTable tfoot .links a{
 
 
 .calendar-wrapper {
-  float:left;
+  display: inline-flex;
   width:30%;
-  margin:3em auto;
+  margin:5px;
   padding:15px;
-  border:1px solid @calendar-border;
-  border-radius:5px;
   background:@calendar-bg;
   
 }
@@ -320,9 +365,17 @@ table {
   border:1px solid @calendar-border;
   border-radius:3px;
   border-collapse:collapse;
-  color:@calendar-color;
-  background: #6F6E7D;
+  color: #FFFFFF;
+  background: #107BBF;
 }
+
+table:hover{
+  background: #29ABD0;
+  border-color: #4C4949;
+  color: #ffff;
+}
+
+
 td {
   height:48px;
   text-align:center;
@@ -346,27 +399,36 @@ thead td {
   text-transform:uppercase;
   font-size:1.5em;
 }
+
 #btnPrev {
   float:left;
-  margin-bottom:20px;
+  margin-top: 60%;
+  margin-bottom:60%;
+  background: #9F9898;
   &:before {
     content:'\f104';
     font-family:FontAwesome;
     padding-right:4px;
+    
   }
 }
 #btnNext {
   float:right;
-  margin-bottom:20px;
+  margin-top: 60%;
+  margin-bottom:60%;
+  background: #9F9898;
   &:after {
     content:'\f105';
     font-family:FontAwesome;
     padding-left:4px;
+    
   }
 }
 #btnPrev, #btnNext {
-  background:transparent;
-  border:none;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
   outline:none;
   font-size:1em;
   color:@calendar-fade-color;
@@ -378,6 +440,12 @@ thead td {
     color:@calendar-standout;
     font-weight:bold;
   }
+}
+
+#btnPrev:hover,#btnNext:hover{
+  background: #33BECE;
+  border-color: #F3DCDC;
+  color: #FFFCFC;
 }
 
 #some-element1 {
@@ -447,7 +515,9 @@ thead td {
 
 
 form{
-	background: #CAC2C2;
+  border:solid #111;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 
