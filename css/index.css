@@ -68,7 +68,6 @@ nav ul {
     list-style-type: none;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #333;
 }
 
 nav li{
@@ -86,11 +85,9 @@ nav li a {
 }
 
 nav li a:hover{
-    background-color: #111;
 }
 
 .active {
-    background-color: #4CAF50;
 }
 
 #pie{
@@ -154,9 +151,6 @@ footer figure{
 }
 
 
-#servicios_reg{
-  margin-top: 400px;
-}
 
 
 .figpersonal{
